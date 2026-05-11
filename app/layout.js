@@ -11,7 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ca" className={`${geist.variable} h-full`}>
-      <body className="min-h-full bg-gray-50 text-gray-900 antialiased">{children}</body>
+      <body className="min-h-full bg-gray-50 text-gray-900 antialiased">
+        {children}
+      </body>
     </html>
   );
 }
